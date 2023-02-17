@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#50C2C9</color>
+    <color name="purple_500">#50C2C9</color>
+    <color name="purple_700">#50C2C9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="g2">#FF36F5D3</color>
+
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#FF36F5D3</color>
+
+    <color name="g3">#FF859E9B</color>
+    <color name="g1">#FF096050</color>
+    <color name="g4">#FF3A4947</color>
+
+
+    <color name="trans">#00000000</color>
+    <color name="warn">#FF1313</color>
+    <color name="halfwarn">#483FC8</color>
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552718692693",
+    "firebase_url": "https://health-alert-9f06b-default-rtdb.firebaseio.com",
+    "project_id": "health-alert-9f06b",
+    "storage_bucket": "health-alert-9f06b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552718692693:android:f06f07bc084096df5a3fdc",
+        "android_client_info": {
+          "package_name": "com.example.onboarding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552718692693-9l0216h1cu4audk867040mu4d7j09hgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmyNA2IepR6nWrpwQ0wu6lH5-_-7Z5Dmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552718692693-9l0216h1cu4audk867040mu4d7j09hgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

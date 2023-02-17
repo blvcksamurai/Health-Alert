@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="120dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginLeft="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/g4"
+    app:cardCornerRadius="10sp"
+    android:layout_marginTop="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintCircleRadius="90dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.4"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.392"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_circle" />
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="Date"
+            android:textColor="@color/g3"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="Time"
+            android:textColor="@color/g3"
+            android:textSize="15dp" />
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_marginLeft="40dp"-->
+        <!--            android:layout_marginTop="40dp"-->
+        <!--            android:fontFamily="@font/raleway_regular"-->
+        <!--            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"-->
+        <!--            android:textColor="@color/g3"-->
+        <!--            android:textSize="15dp" />-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvappointment_type"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Appointment Type"
+        android:textColor="@color/g2"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvlocation"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/raleway_regular"
+        android:text="Location"
+        android:textColor="@color/g2"
+        android:textSize="15dp" />
+
+
+</androidx.cardview.widget.CardView>
+
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:layout_marginRight="20dp"-->
+<!--    app:cardBackgroundColor="@color/g4"-->
+<!--    app:cardCornerRadius="10sp"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintCircleRadius="90dp"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintHorizontal_bias="0.4"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintVertical_bias="0.392"-->

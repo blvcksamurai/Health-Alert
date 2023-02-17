@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".notifications">
+
+
+    <!--   <LinearLayout-->
+    <!--       android:layout_width="match_parent"-->
+    <!--       android:layout_height="match_parent"-->
+    <!--       android:orientation="vertical"-->
+    <!--       android:layout_margin="20dp"-->
+    <!--       >-->
+
+    <!--       <TextView-->
+    <!--           android:layout_width="match_parent"-->
+    <!--           android:layout_height="match_parent"-->
+    <!--           android:fontFamily="@font/raleway_bold"-->
+    <!--           android:text="Settings"-->
+    <!--           android:textColor="@color/g2"-->
+    <!--           android:textSize="30dp" />-->
+
+    <!--       <TextView-->
+    <!--           android:layout_width="match_parent"-->
+    <!--           android:layout_height="match_parent"-->
+    <!--           android:text="Settings"-->
+    <!--           android:textSize="30dp"-->
+    <!--           android:fontFamily="@font/raleway_bold"-->
+    <!--           android:textColor="@color/g2"-->
+    <!--           />-->
+
+
+
+    <!--   </LinearLayout>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:clickable="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/raleway_bold"
+                android:text="Notifications"
+                android:textColor="@color/g2"
+                android:textSize="30dp" />
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:columnCount="1"
+                android:rowCount="1">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:layout_marginTop="5dp">
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="25dp"
+                          android:layout_marginLeft="40dp"
+                          android:fontFamily="@font/raleway_regular"
+                          android:text="Notification Title"
+                          android:textColor="@color/g2"
+                          android:textSize="18dp" />
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginLeft="40dp"
+                          android:fontFamily="@font/raleway_regular"
+                          android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                          android:textColor="@color/g3"
+                          android:textSize="15dp" />
+
+
+
+                  </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/g4"
+                    app:cardCornerRadius="10sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_circle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Notification Title"
+                            android:textColor="@color/g2"
+                            android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, ipsum dolor"
+                            android:textColor="@color/g3"
+                            android:textSize="15dp" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="10sp"
+                    app:cardBackgroundColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="90dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        android:background="@color/black"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        />
+</RelativeLayout>

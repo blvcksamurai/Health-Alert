@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthAlert">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_medication"
+        android:label="@string/healthAlert"
+        android:roundIcon="@mipmap/ic_medication_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Onboarding">
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".appointment_card"
+            android:exported="false" />
+        <activity
+            android:name=".new_appointment"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_nav"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".notifications"
+            android:exported="false" />
+        <activity
+            android:name=".option6"
+            android:exported="false" />
+        <activity
+            android:name=".option5"
+            android:exported="false" />
+        <activity
+            android:name=".option4"
+            android:exported="false" />
+        <activity
+            android:name=".option3"
+            android:exported="false" />
+        <activity
+            android:name=".option2"
+            android:exported="false" />
+        <activity
+            android:name=".option1"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity android:name=".mainscreen" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
